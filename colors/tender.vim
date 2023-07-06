@@ -110,6 +110,7 @@ hi CocInfoSign                  guifg=#ffc24b ctermfg=215 guibg=NONE ctermbg=NON
 :hi link CocSemNamespace String
 :hi link CocSemParameter Normal
 hi CocSemClass                  cterm=NONE    ctermfg=174 ctermbg=NONE   gui=NONE   guifg=#d78787 guibg=NONE
+hi link CocSemOperator Normal
 ":hi link CocSemProperty Boolean
 
 hi cssVendor                    guifg=#9faa00 ctermfg=142 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
