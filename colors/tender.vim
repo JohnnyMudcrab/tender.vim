@@ -314,8 +314,7 @@ hi NvimTreeIndentMarker cterm=NONE    ctermfg=174 ctermbg=NONE   gui=NONE   guif
 hi NvimTreeNormal                       guifg=#eeeeee ctermfg=255 guibg=#282828 ctermbg=235 gui=NONE cterm=NONE
 "hi Normal                       guifg=#eeeeee ctermfg=255 guibg=#282828 ctermbg=235 gui=NONE cterm=NONE
 
-
-" Plugin: vim-startify {{{1
+" Plugin: vim-startify
 hi link StartifySection CocSemClass
 hi link StartifyNumber String
 hi link StartifyPath Directory
@@ -326,6 +325,18 @@ hi StartifyFooter guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cte
 hi StartifySelect guifg=#5fdfff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySlash guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySpecial guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" Plugin: tagbar
+hi link TagbarVisibilityPublic plugEdge
+"hi link TagbarVisibilityProtected plugNumber
+hi TagbarVisibilityProtected guifg=#73cef4 ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link TagbarVisibilityPrivate CocSemClass
+hi TagbarType guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link TagbarScope CocSemClass
+hi TagbarKind guifg=#73cef4 ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+
+" Plugin: sneak
+hi Sneak guifg=#dadada ctermfg=253 guibg=#335261 ctermbg=239 gui=NONE cterm=NONE
 
 hi stylusVariable               guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi stylusClass                  guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
